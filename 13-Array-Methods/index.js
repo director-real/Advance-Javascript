@@ -103,3 +103,24 @@
 // const totalBalance = userBankAccounts.reduce((total, money) => total + money.money, 0)
 
 // console.log(totalBalance)
+
+// Challenge
+
+const products = [
+    { name: "Keyboard", price: 100 },
+    { name: "Mouse", price: 50 },
+    { name: "Monitor", price: 300 },
+    { name: "Mousepad", price: 20 }
+];
+
+const expensiveProducts = products.filter(product => product.price >= 100)
+
+const productNames = products.map(names => names.name)
+
+const totalInventoryValue = products.reduce((total, money) => total + money.price, 0)
+
+console.log(expensiveProducts)
+
+console.log(productNames)
+
+console.log(`Total price for all the items is: $${totalInventoryValue}`)
