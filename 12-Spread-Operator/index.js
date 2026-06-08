@@ -36,3 +36,18 @@ const upgradedLaptop = {
 
 // console.log(originalLaptop)
 // console.log(upgradedLaptop)
+
+function calculateTotalItems(...items) {
+    const sum = items.reduce((addingSum, a) => addingSum + a, 0)
+    console.log(`Total cost of items: ${sum}`)
+}
+
+// calculateTotalItems(1, 1, 1, 5)
+
+
+const currentOrder = ["Pizza", "Burger"]
+
+const finalOrder = [...currentOrder, "Fries", "Soda"]
+
+console.log(currentOrder)
+console.log(finalOrder)
