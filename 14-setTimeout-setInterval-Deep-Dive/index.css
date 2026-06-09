@@ -1,0 +1,36 @@
+body {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container-code-info {
+    background-color: white;
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 16px 0px;
+    overflow: auto;
+}
+
+#code-info {
+    color: rgb(99, 99, 99);
+    font-weight: bold;
+}
+
+#input-code {
+    color: rgb(99, 99, 99);
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid lightgreen;
+    outline-color: lightgreen;
+}
